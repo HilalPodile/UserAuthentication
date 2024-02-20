@@ -1,0 +1,14 @@
+{
+  "name": "userauthentication",
+  "version": "1.0.0",
+  "description": "Project for the authentication and autherization of user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "podileHilal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
