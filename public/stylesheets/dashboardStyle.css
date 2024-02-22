@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+.header{
+    height: 10vh;
+    width: 100vw;
+    background: linear-gradient(to right, #c2ffd8, #465efb);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button{
+    background-color: transparent;
+    margin-right: 10rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

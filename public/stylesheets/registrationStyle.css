@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    background: linear-gradient(to right, #c2ffd8, #465efb)
+}
+
+.registrationPage{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.registrationPage .leftAlign{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftAlign h1{
+    font-size: 3.5rem;
+}
+
+.rightAlign{
+    height: 100%;
+    width: 50%;
+}
+
+.rightAlign form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightAlign form input{
+    font-size: 1.5rem;
+    height: 7.5vh;
+    width: 25vw;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.5rem;
+}
+
+.registrationPage form input::placeholder{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    height: 8vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons button{
+    height: 100%;
+    width: 45%;
+    border-radius: 25px;
+    background-color: black;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
